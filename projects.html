@@ -652,17 +652,11 @@ a,
                   <img src="images/Minds_Studio_TextLogo.png" alt="The Minds Studio Logo"
                     style="height: 25rem; width: auto; display: block;">
                 </div>
-                <div class="footer_template-links">
-                  <a data-load-text="" href="template/style-guide.html" class="footer_template-link">Style guide</a>
-                  <a data-load-text="" href="template/changelog.html" class="footer_template-link">Changelog</a>
-                  <a data-load-text="" href="template/instructions.html" class="footer_template-link">Instructions</a>
-                  <a data-load-text="" href="template/licenses.html" class="footer_template-link">License term</a>
-                </div>
               </div>
               <div class="footer_copyright"><span data-load-text="" class="text-size-sm">© 2026 The Minds Studio. All
                   rights
-                  reserved.</span><span data-load-text="" class="text-size-sm">Built with passion and good coffee
-                  ☕</span></div>
+                  reserved.</span><span data-load-text="" class="text-size-sm">Built with alongside tons of
+                  assignments and a couple of Ride Drinks ☕</span></div>
             </div>
           </div>
         </div>
@@ -676,6 +670,15 @@ a,
   <script src="https://cdn.prod.website-files.com/gsap/3.14.2/gsap.min.js" type="text/javascript"></script>
   <script src="https://cdn.prod.website-files.com/gsap/3.14.2/SplitText.min.js" type="text/javascript"></script>
   <script src="https://cdn.prod.website-files.com/gsap/3.14.2/ScrollTrigger.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function () {
+      $('.nav_menu_text').on('click', function () {
+        if ($('.menu_button-mobile').hasClass('w--open')) {
+          $('.menu_button-mobile').click();
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
