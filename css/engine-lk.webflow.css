@@ -1526,6 +1526,12 @@ figcaption {
   height: auto;
 }
 
+.slide_item.is-gallery .full-image {
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
 .changelog_item {
   padding: var(--spacers--md) var(--spacers--md-regular);
   grid-column-gap: var(--spacers--md-regular);
