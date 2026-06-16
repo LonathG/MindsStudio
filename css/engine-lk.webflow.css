@@ -1677,18 +1677,12 @@ figcaption {
 
 .text-light {
   text-shadow: 0 0 132px var(--_colors---neutral--neutral-0), 0 0 37px var(--_colors---neutral--neutral-0);
-  display: inline-block;
-  transform: translateZ(0);
-  padding: 2em;
-  margin: -2em;
+  display: inline;
 }
 
 .text-light-2 {
   text-shadow: 0 0 2px var(--_colors---neutral--neutral-0), 0 0 4px var(--_colors---neutral--neutral-0);
-  display: inline-block;
-  transform: translateZ(0);
-  padding: 2em;
-  margin: -2em;
+  display: inline;
 }
 
 .text-shadow {
