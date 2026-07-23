@@ -3,9 +3,13 @@
 User-agent: *
 Allow: /
 
-# Disallow non-indexable utility & template pages
+# Disallow non-indexable utility, orphan template & internal pages
+Disallow: /404
 Disallow: /404.html
+Disallow: /401
 Disallow: /401.html
+Disallow: /projects/project-details
+Disallow: /projects/project-details.html
 Disallow: /template/
 
 # Sitemap location
