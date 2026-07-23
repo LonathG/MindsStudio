@@ -1,0 +1,12 @@
+# www.robotstxt.org/
+
+User-agent: *
+Allow: /
+
+# Disallow non-indexable utility & template pages
+Disallow: /404.html
+Disallow: /401.html
+Disallow: /template/
+
+# Sitemap location
+Sitemap: https://themindsstudio.com/sitemap.xml
