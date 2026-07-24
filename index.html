@@ -345,8 +345,9 @@ a,
               <div class="nav_menu-content">
                 <div class="nav_menu">
                   <a href="#about" class="nav_menu_text w-nav-link">About</a>
-                  <a href="projects.html" class="nav_menu_text w-nav-link">Projects <sup>(4)</sup></a>
+                  <a href="/projects.html" class="nav_menu_text w-nav-link">Projects <sup>(5)</sup></a>
                   <a href="#services" class="nav_menu_text w-nav-link">Services</a>
+                  <a href="#pricing" class="nav_menu_text w-nav-link">Pricing</a>
                   <a href="#testimonials" class="nav_menu_text w-nav-link">FAQ</a>
                 </div>
                 <div class="nav_cta-mobile">
@@ -804,77 +805,280 @@ a,
           </div>
         </section>
 
-        <!-- <section id="testimonials" class="section_home-reviews">
+        <style>
+          .section_home-pricing {
+            padding: 8rem 0;
+            color: #fff;
+            position: relative;
+          }
 
-          <div data-wf--rectangle-background--position="top-right"
-            class="rectangle_wrap w-variant-feaec6ca-a736-41d4-4cc1-f025bf7860d5">
-            <div data-wf--rectangle-shape--variant="base" class="rectangle_shape"></div>
-          </div>
+          .pricing_header {
+            text-align: center;
+            margin-bottom: 4rem;
+          }
+
+          .pricing_header h2 {
+            margin-bottom: 1rem;
+          }
+
+          .pricing_header p {
+            font-size: 1.125rem;
+            color: #a1a1aa;
+          }
+
+          .pricing_grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+          }
+
+          .pricing_card {
+            background: linear-gradient(180deg, rgba(30, 30, 30, 0.4) 0%, rgba(20, 20, 20, 0.4) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 1rem;
+            padding: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+          }
+
+          .pricing_card:hover {
+            transform: translateY(-5px);
+          }
+
+          .pricing_card.is-popular {
+            background: linear-gradient(180deg, rgba(40, 40, 40, 0.6) 0%, rgba(25, 25, 25, 0.6) 100%);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 -10px 40px rgba(255, 255, 255, 0.02);
+          }
+
+          .pricing_card.is-popular::before {
+            content: '';
+            position: absolute;
+            top: -1px;
+            left: 30%;
+            right: 30%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+          }
+
+          .pricing_title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+
+          .popular_badge {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.75rem;
+            color: #ccc;
+          }
+
+          .pricing_price {
+            font-size: 3.5rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            line-height: 1;
+          }
+
+          .pricing_price span {
+            font-size: 1rem;
+            color: #a1a1aa;
+          }
+
+          .pricing_desc {
+            font-size: 0.875rem;
+            color: #a1a1aa;
+            margin-bottom: 2rem;
+            min-height: 2.5rem;
+          }
+
+          .pricing_btn {
+            display: block;
+            text-align: center;
+            padding: 0.875rem 1.5rem;
+            border-radius: 0.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            transition: all 0.2s;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+          }
+
+          .pricing_btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+          }
+
+          .pricing_btn.is-primary {
+            background: linear-gradient(90deg, #ed8240, #d9601a);
+            border: none;
+            font-weight: 500;
+          }
+
+          .pricing_btn.is-primary:hover {
+            opacity: 0.9;
+          }
+
+          .pricing_features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+
+          .pricing_features-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #666;
+            margin-bottom: 1rem;
+            text-align: center;
+            position: relative;
+          }
+
+          .pricing_features-title::before,
+          .pricing_features-title::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 30%;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+          }
+
+          .pricing_features-title::before {
+            left: 0;
+          }
+
+          .pricing_features-title::after {
+            right: 0;
+          }
+
+          .pricing_features li {
+            display: flex;
+            align-items: center;
+            font-size: 0.875rem;
+            color: #ccc;
+            margin-bottom: 1rem;
+          }
+
+          .pricing_features li svg {
+            width: 16px;
+            height: 16px;
+            margin-right: 0.75rem;
+            flex-shrink: 0;
+            color: #fff;
+          }
+        </style>
+        <section id="pricing" class="section_home-pricing">
           <div class="padding-global padding-section-large">
             <div class="container-large">
-              <div class="home-reviews_component">
-                <div class="basic_heading">
-                  <h2 class="heading-style-h2">What clients say</h2>
-                </div><span data-load-text="" class="text-size-md">Reviews</span>
-                <div data-delay="4000" data-animation="slide" class="slider w-slider" data-autoplay="false"
-                  data-easing="ease" style="opacity:0" data-hide-arrows="false" data-disable-swipe="true"
-                  data-w-id="4a8c7340-478c-c237-577a-702ce7970a72" data-autoplay-limit="0" data-nav-spacing="0"
-                  data-duration="500" data-infinite="false">
-                  <div class="overflow-visible w-slider-mask">
-                    <div class="slide_item w-slide">
-                      <div class="testimonial_card"><img src="images/Nova-Logo.png" loading="lazy"
-                          alt="Nova logo with a solid circle icon to the left of the word “Nova”." height="32"
-                          class="testimonial_logo">
-                        <div class="testimonial_content">
-                          <p class="text-size-md">“Working with Minds Studio was a pleasure—clear communication,
-                            thoughtful design, and a result beyond expectations.”</p><span
-                            class="text-color-secondary">Sarah L.,
-                            Founder at Nova Studio</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="slide_item w-slide">
-                      <div class="testimonial_card"><img src="images/Lumen-Logo.png" loading="lazy"
-                          alt="Lumen logo featuring a circular line symbol above the word “Lumen”" height="32"
-                          class="testimonial_logo">
-                        <div class="testimonial_content">
-                          <p class="text-size-md">“The design system created transformed our website experience.
-                            Everything feels cohesive, easy to manage, and visually beautiful.”</p><span
-                            class="text-color-secondary">Michael T., Product Manager at Lumen</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="slide_item w-slide">
-                      <div class="testimonial_card"><img src="images/Orbit-Logo.png" loading="lazy"
-                          alt="Orbit logo with an elliptical orbit icon beside the word “Orbit”." height="32"
-                          class="testimonial_logo">
-                        <div class="testimonial_content">
-                          <p class="text-size-md">“I appreciated how Minds Studio made complex ideas feel simple and
-                            modern.
-                            The end result was exactly what we needed.”</p><span class="text-color-secondary">Amelia R.,
-                            Creative Director at Orbit</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slider_arrow is-left w-slider-arrow-left"><svg xmlns="http://www.w3.org/2000/svg"
-                      width="100%" viewbox="0 0 48 48" fill="none">
-                      <path d="M44 24H4" stroke="currentColor" stroke-width="4" stroke-miterlimit="10"></path>
-                      <path d="M18 38L4 24L18 10" stroke="currentColor" stroke-width="4" stroke-miterlimit="10"
-                        stroke-linecap="square"></path>
-                    </svg></div>
-                  <div class="slider_arrow w-slider-arrow-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                      viewbox="0 0 48 48" fill="none">
-                      <path d="M4 24H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="10"></path>
-                      <path d="M30 10L44 24L30 38" stroke="currentColor" stroke-width="4" stroke-miterlimit="10"
-                        stroke-linecap="square"></path>
-                    </svg></div>
-                  <div class="hide w-slider-nav"></div>
+              <div class="pricing_header">
+                <h2 class="heading-style-h2">Simple and Transparent<br>Project Pricing</h2>
+                <p>Choose the blueprint that aligns with your brand's digital ambitions.</p>
+              </div>
+              <div class="pricing_grid">
+
+                <div class="pricing_card">
+                  <div class="pricing_title">Essential Launch</div>
+                  <div class="pricing_price">75,000<span> LKR</span></div>
+                  <div class="pricing_desc">Perfect for startups and local brands needing a high-impact, premium
+                    single-page or portfolio site.</div>
+                  <a href="tel:+94779607209" class="pricing_btn">Start Your Project</a>
+                  <div class="pricing_features-title">FEATURES</div>
+                  <ul class="pricing_features">
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Premium Single-Page Landing Page</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Fully Responsive & Mobile-Optimized Layout</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Figma-to-Code Pixel-Perfect Development</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Essential Micro-Interactions & Motion Graphics</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Basic SEO Configuration & Speed Optimization</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Contact Form Integration & Social Links</li>
+                  </ul>
                 </div>
+
+                <div class="pricing_card is-popular">
+                  <div class="pricing_title">Brand Growth <span class="popular_badge">Most Popular</span></div>
+                  <div class="pricing_price">120,000<span> LKR</span></div>
+                  <div class="pricing_desc">Designed for growing businesses requiring dynamic content, custom multi-page
+                    architecture, and CMS control.</div>
+                  <a href="tel:+94779607209" class="pricing_btn is-primary">Secure This Plan</a>
+                  <div class="pricing_features-title">FEATURES</div>
+                  <ul class="pricing_features">
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Full Custom Multi-Page Website (Up to 5 Pages)</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Advanced CMS Setup for Blogs, Portfolios, or Products</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Enhanced Scroll Animations & Complex Component Interactions</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> High-Performance Hosting Setup (Webflow / Vercel)</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Comprehensive On-Page SEO & Domain Mapping</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> 14 Days of Post-Launch Technical Support</li>
+                  </ul>
+                </div>
+
+                <div class="pricing_card">
+                  <div class="pricing_title">Custom Immersive</div>
+                  <div class="pricing_price">180,000<span> LKR</span></div>
+                  <div class="pricing_desc">For premium brands aiming to dominate the digital space with complex
+                    features, high-end 3D visual assets, or custom web apps.</div>
+                  <a href="tel:+94779607209" class="pricing_btn">Partner with Minds Studio</a>
+                  <div class="pricing_features-title">FEATURES</div>
+                  <ul class="pricing_features">
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Advanced Web Architecture or Interactive Multi-Page Platform</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Lightweight 3D Web Graphics / Canvas Shader Integrations</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Tailored API Integrations & 3rd-Party Automations</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Premium Performance Tuning & Ultra-Fast Asset Optimization</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> Dedicated Enterprise VPS or Cloud Server Deployment Setup</li>
+                    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg> 30 Days of Priority Hotfix & Content Maintenance Support</li>
+                  </ul>
+                </div>
+
               </div>
             </div>
           </div>
-        </section> -->
+        </section>
 
         <section class="section_home-faqs">
           <div class="padding-global padding-section-large">
