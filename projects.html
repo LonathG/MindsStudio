@@ -46,13 +46,16 @@
         html.w-mod-js:not(.w-mod-ix3) :is([data-load-text], .nav_logo, .nav_menu_text, .nav_cta) {
             /* removed to fix animations */
         }
+
         @media (max-width: 992px) {
             .menu_button-mobile {
                 display: flex !important;
             }
+
             .menu_button-mobile.w--open .menu_button-icon {
                 display: none;
             }
+
             .menu_button-mobile.w--open .menu_button-icon.is-close {
                 display: block;
             }
@@ -123,6 +126,7 @@
                 }
 
                 @media screen and (max-width: 991px) {
+
                     .hide,
                     .hide-tablet {
                         display: none !important;
@@ -141,15 +145,35 @@
                     }
                 }
 
-                .margin-0 { margin: 0rem !important; }
-                .padding-0 { padding: 0rem !important; }
-                .spacing-clean { padding: 0rem !important; margin: 0rem !important; }
+                .margin-0 {
+                    margin: 0rem !important;
+                }
 
-                .wf-control { opacity: 0; }
+                .padding-0 {
+                    padding: 0rem !important;
+                }
 
-                h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+                .spacing-clean {
+                    padding: 0rem !important;
+                    margin: 0rem !important;
+                }
 
-                .menu_button-mobile svg path { fill: currentColor; }
+                .wf-control {
+                    opacity: 0;
+                }
+
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    font-weight: 400;
+                }
+
+                .menu_button-mobile svg path {
+                    fill: currentColor;
+                }
 
                 .navbar_projects-link:has(.w--current) {
                     color: var(--_theme-colors---text--primary);
@@ -193,9 +217,8 @@
                         </nav>
                         <div class="overflow-hidden">
                             <div class="nav_cta">
-                                <a data-w-id="19a55963-a69b-4345-a3b6-fef10cc48aab"
-                                    href="tel:+94779607209" class="button w-inline-block"><span
-                                        class="text-size-sm">Call Us</span>
+                                <a data-w-id="19a55963-a69b-4345-a3b6-fef10cc48aab" href="tel:+94779607209"
+                                    class="button w-inline-block"><span class="text-size-sm">Call Us</span>
                                     <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
                                             viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus">
                                             <path
@@ -232,11 +255,12 @@
                 <div class="padding-global">
                     <div class="container-large">
                         <div class="projects-hero_component">
-                            <h1 data-w-id="551f1da4-0c5b-8806-af72-6f46b926ca9e"
-                                class="heading-style-h1">Our Projects</h1>
+                            <h1 data-w-id="551f1da4-0c5b-8806-af72-6f46b926ca9e" class="heading-style-h1">Our Projects
+                            </h1>
                             <div class="max-width-small">
                                 <p data-load-text="" class="text-size-md">Discover how The Minds Studio turns visionary
-                                    ideas into reality. Explore our portfolio of premium web designs and results-driven digital marketing campaigns.</p>
+                                    ideas into reality. Explore our portfolio of premium web designs and results-driven
+                                    digital marketing campaigns.</p>
                             </div>
                         </div>
                     </div>
@@ -255,23 +279,56 @@
                                         <a href="/projects/hamsy.html" class="project_item-link w-inline-block">
                                             <div class="project_item-visual"><img
                                                     src="/images/projects/Hamsy/IMG_01.jpg" loading="lazy"
-                                                    alt="Boutique hamster breeding & care platform"
-                                                    class="full-image"></div>
+                                                    alt="Boutique hamster breeding & care platform" class="full-image">
+                                            </div>
                                             <div class="corners_wrap">
-                                                <div class="corner_block is-top-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-top-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 40H38C39.1046 40 40 39.1046 40 38V0" stroke="currentColor"></path></svg></div>
+                                                <div class="corner_block is-top-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-top-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 40H38C39.1046 40 40 39.1046 40 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
                                             </div>
                                             <div class="project_item-button">
                                                 <div class="button"><span class="text-size-sm">View Project</span>
-                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg></div>
+                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                            width="100%" viewbox="0 0 11 9" fill="none"
+                                                            class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                            viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg></div>
                                                 </div>
                                             </div>
                                         </a>
                                         <div class="project_showcase-info">
-                                            <h3 class="text-size-lg letter-spacing-normal">Hamsy — Boutique Breeding & Care Platform</h3>
-                                            <p class="text-color-secondary">Educational, care-focused platform with direct reservation workflow.</p>
+                                            <h3 class="text-size-lg letter-spacing-normal">Hamsy — Boutique Breeding &
+                                                Care Platform</h3>
+                                            <p class="text-color-secondary">Educational, care-focused platform with
+                                                direct reservation workflow.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -282,23 +339,56 @@
                                         <a href="/projects/smartbuds.html" class="project_item-link w-inline-block">
                                             <div class="project_item-visual"><img
                                                     src="/images/projects/SmartBuds/IMG01.jpg" loading="lazy"
-                                                    alt="Early childhood educational application"
-                                                    class="full-image"></div>
+                                                    alt="Early childhood educational application" class="full-image">
+                                            </div>
                                             <div class="corners_wrap">
-                                                <div class="corner_block is-top-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-top-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 40H38C39.1046 40 40 39.1046 40 38V0" stroke="currentColor"></path></svg></div>
+                                                <div class="corner_block is-top-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-top-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 40H38C39.1046 40 40 39.1046 40 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
                                             </div>
                                             <div class="project_item-button">
                                                 <div class="button"><span class="text-size-sm">View Project</span>
-                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg></div>
+                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                            width="100%" viewbox="0 0 11 9" fill="none"
+                                                            class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                            viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg></div>
                                                 </div>
                                             </div>
                                         </a>
                                         <div class="project_showcase-info">
-                                            <h3 class="text-size-lg letter-spacing-normal">SmartBuds — Early Childhood Educational Platform</h3>
-                                            <p class="text-color-secondary">Interactive early childhood educational application aligned with NECECF & EYFS standards.</p>
+                                            <h3 class="text-size-lg letter-spacing-normal">SmartBuds — Early Childhood
+                                                Educational Platform</h3>
+                                            <p class="text-color-secondary">Interactive early childhood educational
+                                                application aligned with NECECF & EYFS standards.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -306,26 +396,60 @@
                                 <!-- Project 3 -->
                                 <div data-w-id="087f437f-c4e5-c530-5713-5f279e7c7a0a" class="slider_item-showcase">
                                     <div class="project_showcase-card">
-                                        <a href="/projects/lonath-portfolio.html" class="project_item-link w-inline-block">
+                                        <a href="/projects/lonath-portfolio.html"
+                                            class="project_item-link w-inline-block">
                                             <div class="project_item-visual"><img
                                                     src="/images/projects/Lonath%20Portfolio/Lonath%20Main.jpg"
                                                     loading="lazy" alt="Website done for Lonath Gunawardena"
                                                     class="full-image"></div>
                                             <div class="corners_wrap">
-                                                <div class="corner_block is-top-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-top-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 40H38C39.1046 40 40 39.1046 40 38V0" stroke="currentColor"></path></svg></div>
+                                                <div class="corner_block is-top-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-top-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 40H38C39.1046 40 40 39.1046 40 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
                                             </div>
                                             <div class="project_item-button">
                                                 <div class="button"><span class="text-size-sm">View Project</span>
-                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg></div>
+                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                            width="100%" viewbox="0 0 11 9" fill="none"
+                                                            class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                            viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg></div>
                                                 </div>
                                             </div>
                                         </a>
                                         <div class="project_showcase-info">
-                                            <h3 class="text-size-lg letter-spacing-normal">Lonath Gunawardena — Interactive Portfolio</h3>
-                                            <p class="text-color-secondary">Interactive Portfolio done for Lonath Gunawardena.</p>
+                                            <h3 class="text-size-lg letter-spacing-normal">Lonath Gunawardena —
+                                                Interactive Portfolio</h3>
+                                            <p class="text-color-secondary">Interactive Portfolio done for Lonath
+                                                Gunawardena.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -338,19 +462,51 @@
                                                     src="/images/projects/Ride/Ride%20Main.jpg" loading="lazy"
                                                     alt="Sample web made for a pitch for ride" class="full-image"></div>
                                             <div class="corners_wrap">
-                                                <div class="corner_block is-top-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-top-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 40H38C39.1046 40 40 39.1046 40 38V0" stroke="currentColor"></path></svg></div>
+                                                <div class="corner_block is-top-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-top-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 40H38C39.1046 40 40 39.1046 40 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
                                             </div>
                                             <div class="project_item-button">
                                                 <div class="button"><span class="text-size-sm">View Project</span>
-                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg></div>
+                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                            width="100%" viewbox="0 0 11 9" fill="none"
+                                                            class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                            viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg></div>
                                                 </div>
                                             </div>
                                         </a>
                                         <div class="project_showcase-info">
-                                            <h3 class="text-size-lg letter-spacing-normal">Ride — Sample web made for a pitch</h3>
+                                            <h3 class="text-size-lg letter-spacing-normal">Ride — Sample web made for a
+                                                pitch</h3>
                                             <p class="text-color-secondary">Sample web made for a pitch for Ride.</p>
                                         </div>
                                     </div>
@@ -360,23 +516,55 @@
                                 <div data-w-id="64e25c78-ff40-c565-039b-e722ea887dd3" class="slider_item-showcase">
                                     <div class="project_showcase-card">
                                         <a href="/projects/igl.html" class="project_item-link w-inline-block">
-                                            <div class="project_item-visual"><img
-                                                    src="/images/projects/IGL/IGL_01.jpg" loading="lazy"
-                                                    alt="Educational platform for IGL Sri Lanka" class="full-image"></div>
+                                            <div class="project_item-visual"><img src="/images/projects/IGL/IGL_01.jpg"
+                                                    loading="lazy" alt="Educational platform for IGL Sri Lanka"
+                                                    class="full-image"></div>
                                             <div class="corners_wrap">
-                                                <div class="corner_block is-top-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-top-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 40H38C39.1046 40 40 39.1046 40 38V0" stroke="currentColor"></path></svg></div>
+                                                <div class="corner_block is-top-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-top-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 40H38C39.1046 40 40 39.1046 40 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
                                             </div>
                                             <div class="project_item-button">
                                                 <div class="button"><span class="text-size-sm">View Project</span>
-                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg></div>
+                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                            width="100%" viewbox="0 0 11 9" fill="none"
+                                                            class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                            viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg></div>
                                                 </div>
                                             </div>
                                         </a>
                                         <div class="project_showcase-info">
-                                            <h3 class="text-size-lg letter-spacing-normal">IGL Sri Lanka — Global Education Platform</h3>
+                                            <h3 class="text-size-lg letter-spacing-normal">IGL Sri Lanka — Global
+                                                Education Platform</h3>
                                             <p class="text-color-secondary">Educational platform for IGL Sri Lanka.</p>
                                         </div>
                                     </div>
@@ -390,20 +578,53 @@
                                                     src="/images/projects/Starcatcher/k2.jpg" loading="lazy"
                                                     alt="Children's storybook application" class="full-image"></div>
                                             <div class="corners_wrap">
-                                                <div class="corner_block is-top-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-top-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 40H38C39.1046 40 40 39.1046 40 38V0" stroke="currentColor"></path></svg></div>
+                                                <div class="corner_block is-top-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-top-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 40H38C39.1046 40 40 39.1046 40 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
                                             </div>
                                             <div class="project_item-button">
                                                 <div class="button"><span class="text-size-sm">View Project</span>
-                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg></div>
+                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                            width="100%" viewbox="0 0 11 9" fill="none"
+                                                            class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                            viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg></div>
                                                 </div>
                                             </div>
                                         </a>
                                         <div class="project_showcase-info">
-                                            <h3 class="text-size-lg letter-spacing-normal">Starcatcher — Children's storybook application</h3>
-                                            <p class="text-color-secondary">Interactive children's storybook application.</p>
+                                            <h3 class="text-size-lg letter-spacing-normal">Starcatcher — Children's
+                                                storybook application</h3>
+                                            <p class="text-color-secondary">Interactive children's storybook
+                                                application.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -417,68 +638,53 @@
                                                     alt="Premium web dev for a Perfume seller in Sri lanka"
                                                     class="full-image"></div>
                                             <div class="corners_wrap">
-                                                <div class="corner_block is-top-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-top-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 40H38C39.1046 40 40 39.1046 40 38V0" stroke="currentColor"></path></svg></div>
+                                                <div class="corner_block is-top-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-top-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-left"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
+                                                <div class="corner_block is-bottom-right"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                        viewbox="0 0 41 41" fill="none">
+                                                        <path d="M0 40H38C39.1046 40 40 39.1046 40 38V0"
+                                                            stroke="currentColor"></path>
+                                                    </svg></div>
                                             </div>
                                             <div class="project_item-button">
                                                 <div class="button"><span class="text-size-sm">View Project</span>
-                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg></div>
+                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                            width="100%" viewbox="0 0 11 9" fill="none"
+                                                            class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                                                            viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus">
+                                                            <path
+                                                                d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z"
+                                                                fill="currentColor"></path>
+                                                        </svg></div>
                                                 </div>
                                             </div>
                                         </a>
                                         <div class="project_showcase-info">
-                                            <h3 class="text-size-lg letter-spacing-normal">Noir — Premium web dev for a Perfume seller in Sri Lanka</h3>
-                                            <p class="text-color-secondary">Premium web dev for a Perfume seller in Sri Lanka.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                                    src="/images/projects/SmartBuds/IMG01.jpg" loading="lazy"
-                                                    alt="Early childhood educational application"
-                                                    class="full-image"></div>
-                                            <div class="corners_wrap">
-                                                <div class="corner_block is-top-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-top-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 40H38C39.1046 40 40 39.1046 40 38V0" stroke="currentColor"></path></svg></div>
-                                            </div>
-                                            <div class="project_item-button">
-                                                <div class="button"><span class="text-size-sm">View Project</span>
-                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg></div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <div class="project_showcase-info">
-                                            <h3 class="text-size-lg letter-spacing-normal">SmartBuds — Early Childhood Educational Platform</h3>
-                                            <p class="text-color-secondary">Interactive early childhood educational application aligned with NECECF & EYFS standards.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Project 7 -->
-                                <div data-w-id="64e25c78-ff40-c565-039b-e722ea887dd7" class="slider_item-showcase">
-                                    <div class="project_showcase-card">
-                                        <a href="/projects/hamsy.html" class="project_item-link w-inline-block">
-                                            <div class="project_item-visual"><img
-                                                    src="/images/projects/Hamsy/IMG_01.jpg" loading="lazy"
-                                                    alt="Boutique hamster breeding & care platform"
-                                                    class="full-image"></div>
-                                            <div class="corners_wrap">
-                                                <div class="corner_block is-top-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 0.5H2.5C1.39543 0.5 0.5 1.39543 0.5 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-top-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 0.5H38C39.1046 0.5 40 1.39543 40 2.5V40.5" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-left"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M40.5 40H2.5C1.39543 40 0.5 39.1046 0.5 38V0" stroke="currentColor"></path></svg></div>
-                                                <div class="corner_block is-bottom-right"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 41 41" fill="none"><path d="M0 40H38C39.1046 40 40 39.1046 40 38V0" stroke="currentColor"></path></svg></div>
-                                            </div>
-                                            <div class="project_item-button">
-                                                <div class="button"><span class="text-size-sm">View Project</span>
-                                                    <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 9" fill="none" class="icon-1x1-sm-minus"><path d="M5.76953 8.91406L5.00391 8.14844L6.44629 6.71289C6.7334 6.42578 7.03418 6.13411 7.34863 5.83789C7.66309 5.53711 7.9707 5.24772 8.27148 4.96973C8.06185 4.97884 7.85221 4.98796 7.64258 4.99707C7.43294 5.00163 7.22331 5.00391 7.01367 5.00391H0V3.91016H7.01367C7.22331 3.91016 7.43294 3.91471 7.64258 3.92383C7.85221 3.92839 8.06185 3.93522 8.27148 4.94434C7.9707 3.66634 7.66309 3.37923 7.34863 3.08301C7.03418 2.78223 6.7334 2.48828 6.44629 2.20117L5.00391 0.765625L5.76953 0L10.2266 4.45703L5.76953 8.91406Z" fill="currentColor"></path></svg></div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <div class="project_showcase-info">
-                                            <h3 class="text-size-lg letter-spacing-normal">Hamsy — Boutique Breeding & Care Platform</h3>
-                                            <p class="text-color-secondary">Educational, care-focused platform with direct reservation workflow.</p>
+                                            <h3 class="text-size-lg letter-spacing-normal">Noir — Premium web dev for a
+                                                Perfume seller in Sri Lanka</h3>
+                                            <p class="text-color-secondary">Premium web dev for a Perfume seller in Sri
+                                                Lanka.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -502,12 +708,13 @@
                                     </div>
                                     <div class="cta_content">
                                         <p data-load-text="" class="text-color-secondary">Whether you need a brand
-                                            refresh, a premium website, or a high-impact digital marketing campaign—we’re here to help.</p>
+                                            refresh, a premium website, or a high-impact digital marketing
+                                            campaign—we’re here to help.</p>
                                         <div class="overflow-hidden">
                                             <div data-w-id="c0542d7b-d4c9-d424-f9e7-cfbd7003dff5">
                                                 <a data-w-id="19a55963-a69b-4345-a3b6-fef10cc48aab"
-                                                    href="tel:+94779607209"
-                                                    class="button w-inline-block"><span class="text-size-sm">Call Us</span>
+                                                    href="tel:+94779607209" class="button w-inline-block"><span
+                                                        class="text-size-sm">Call Us</span>
                                                     <div class="button_icon"><svg xmlns="http://www.w3.org/2000/svg"
                                                             width="100%" viewbox="0 0 11 9" fill="none"
                                                             class="icon-1x1-sm-minus">
@@ -547,7 +754,8 @@
                             </div>
                             <div class="footer_contact">
                                 <div class="max-width-xsmall">
-                                    <p data-load-text="" class="text-size-md">Reach out with your ideas let’s build something remarkable.
+                                    <p data-load-text="" class="text-size-md">Reach out with your ideas let’s build
+                                        something remarkable.
                                     </p>
                                 </div>
                                 <a href="mailto:hello@themindsstudio.com" class="footer_contact-email"><span
@@ -562,7 +770,8 @@
                                 </div>
                             </div>
                             <div class="footer_copyright"><span data-load-text="" class="text-size-sm">© 2026 The Minds
-                                    Studio. All rights reserved.</span><span data-load-text="" class="text-size-sm">Designed &amp; Developed by Lonath G</span></div>
+                                    Studio. All rights reserved.</span><span data-load-text=""
+                                    class="text-size-sm">Designed &amp; Developed by Lonath G</span></div>
                         </div>
                     </div>
                 </div>
